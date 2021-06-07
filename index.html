@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>	
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="game">
+		<div id="quiz">
+			<div id="main">
+				<div id="question">
+					<span id="question_title"></span>
+					<span id="question_text"></span>
+				</div>
+				<div id="answers"></div>
+			</div>
+			<div id="nav-bottom">
+				<span id="previous">Previous</span>
+				<span id="next">Next</span>
+			</div>
+			
+		</div>
+		<div id="nav-side">
+			<span id="navigate_title">Navigate to:</span>
+			<div class="navigate_to"><span class="desktop">Question 1</span><span class="mobile">Q1</span></div>
+			<div class="navigate_to"><span class="desktop">Question 2</span><span class="mobile">Q2</span></div>
+			<div class="navigate_to"><span class="desktop">Question 3</span><span class="mobile">Q3</span></div>
+			<div class="navigate_to"><span class="desktop">Question 4</span><span class="mobile">Q4</span></div>
+			<div id="results">Show results!</div>
+		</div>
+	</div>
+	
+	<div id="results_breakdown">
+		<h2 id="your_results">Your results</h2>
+		<div>
+			<span class="question_number">First question: </span>
+			<span class="correct">Correct!</span>
+			<span class="incorrect">Incorrect!</span>
+			<span class="correct_answer_specified"></span>
+		</div>
+		<div>
+			<span class="question_number">Second question: </span>
+			<span class="correct">Correct!</span>
+			<span class="incorrect">Incorrect!</span>
+			<span class="correct_answer_specified"></span>
+		</div>
+		<div>
+			<span class="question_number">Third question: </span>
+			<span class="correct">Correct!</span>
+			<span class="incorrect">Incorrect!</span>
+			<span class="correct_answer_specified"></span>
+		</div>
+		<div>
+			<span class="question_number">Forth question: </span>
+			<span class="correct">Correct!</span>
+			<span class="incorrect">Incorrect!</span>
+			<span class="correct_answer_specified"></span>
+		</div>
+		<button id="close_results">X</button>
+		<div id="start_new">Start new quiz</div>
+	</div>
+	
+	<div id="alert_massage">You have already chosen your answer!</div>
+	
+	
+	<script src="app.js"></script>
+</body>
+</html>
